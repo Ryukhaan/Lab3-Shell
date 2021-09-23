@@ -30,11 +30,24 @@ echo "Something"
 </details>
 
 <details><summary>Hint #2</summary>
-#n: returns the contents of the n-th argument
+The n-th argument:
+
+  ```shell
+  # First argument
+  $1
+  # Third argument
+  $3
+  # And so on
+  ```
 </details>
 
 <details><summary>Hint #3</summary>
-#$: returns the number of arguments
+The number of arguments
+  
+  ```shell
+  $#
+  ```
+  
 </details>
 
 ### Looping
