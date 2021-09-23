@@ -28,7 +28,7 @@ git push
 
 ### Delete
 
-Delete a file (the one you want).
+Delete a file (the one you want - **PLEASE, EXECPT README.md**).
 
 This step is equivalent to:
 ```git
