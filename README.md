@@ -80,4 +80,4 @@ done
 ### Not again!
 
 Oh no! It seems that the next exercise is on the main branch.
-Let's check the branch to find the rest of the exercise.
+Let's check all the versions of the main branch to find the rest of the exercise.
