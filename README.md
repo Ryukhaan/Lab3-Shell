@@ -1,54 +1,70 @@
 # Lab3-Shell
 A git repository for students
 
-## The first exercice
+## The first exercice - Second part
 
-Keep going! The first exercise is a reminder of what has been done so far in Shell.
+Well done!
 
-### Connection
-Firstly, (as usual) we must connect to the website <https://replit.com/languages/bash>
+### Scripting
 
-### Move through the file tree structure
+Create a script that prompts "Hello, there are *x* arguments and the argument 2 is:" followed by the argument 2 and where *x* is the number of arguments.
 
-The objectif is to find where the command *mv* is located (using only the learned commands).
-A hint to start the exercice, command are really often in a *bin* directory. 
-
-<details><summary>Hint #1</summary>
-
-If you are on *replit* website:
-  You should look at the root!
-
-If you are on you own computer:
-  You should look at the root or in */usr* repository!
-</details>
-
-#### NB
-Instead of browsing the whole tree, there is a command to display the absolute path of the searched command: **which *your_command***
-Try:
+Some examples:
 ```shell
-which mv
+bash main.sh This is my dog
+bash main.sh OneArgument
 ```
-It looks like that the command is also in another directory
-
-### Let's do something now
-
-Now, move back to your home directory then copy the command inside a folder named *tmp*.
+should respectively return
+```shell
+Hello, there are 4 arguments and the argument 2 is: is
+Hello, there are 1 arguments and the argument 2 is: 
+```
 
 <details><summary>Hint #1</summary>
-The home directory is the variable $HOME, or the shortcut ~
+To display something on the screen, you may use:
+  
+```shell
+echo "Something"
+```
+  
 </details>
 
 <details><summary>Hint #2</summary>
-You must create the directory *tmp* before copying the command
+#n: returns the contents of the n-th argument
 </details>
 
 <details><summary>Hint #3</summary>
-To create a directory: mkdir *directorys_name*
-To copy a file: cp *path_source* *path_destination*
+#$: returns the number of arguments
 </details>
 
+### Looping
 
-### Wrong path!
+Create a countdown, where the count is passed as an argument
 
-Oh no! It seems that the next exercise is on the branch *scripting*.
+<details><summary>Hint #1</summary>
+Using an arithmetic variable:
+  
+```shell
+#Declare
+let a=0
+#Access and change its value
+let a=$a+1
+```
+  
+</details>
+
+<details><summary>Hint #2</summary>
+While-loop syntax;
+  
+```shell
+while [[ condition ]]; do
+  #Something
+done
+```
+  
+</details>
+
+### Not again!
+
+Oh no! It seems that the next exercise is on the main branch.
 Let's check the branch to find the rest of the exercise.
