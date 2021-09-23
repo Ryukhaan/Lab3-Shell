@@ -3,9 +3,9 @@ A git repository for students
 
 ## Get an older version
 
-Well done! You have found this version of the repository!
+Something went wrong! The first exercise is missing.
+It must have been deleted due to inattention.
+It must be found in an earlier version.
 
-## Access to the first Exercice
 
-The first Shell exercice is in the branch "review"
-Let's find it!
+Find it! And hurry up, the time goes by!
